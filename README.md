@@ -1,14 +1,14 @@
 # dotfiles
 This config is based on [ejvi's dotfiles](https://github.com/ejvi/dotfiles), except I've added some of my own stuff.
 
-OS: arch linux
-Shell: zsh
-Terminal: alacritty
-Launcher: rofi
-Bar: polybar
-Font: jetbrains mono nerd font
-Wallpaper: mauve-cat from catppuccin wallpaper repo
-Catppuccin Variation: Mocha Mauve
+- OS: arch linux
+- Shell: zsh
+- Terminal: alacritty
+- Launcher: rofi
+- Bar: polybar
+- Font: jetbrains mono nerd font
+- Wallpaper: mauve-cat from catppuccin wallpaper repo
+- Catppuccin Variation: Mocha Mauve
 
 # Dependencies
 - i3-gaps
