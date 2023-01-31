@@ -20,6 +20,8 @@ This config is based on [ejvi's dotfiles](https://github.com/ejvi/dotfiles), exc
 - zsh
 - rofi
 - exa
+- [catppuccin cursors](https://github.com/catppuccin/cursors)
+- [catppuccin icon theme](https://github.com/catppuccin/papirus-folders)
 
 # Screenshots
 <p align="center">
