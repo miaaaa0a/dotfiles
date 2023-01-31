@@ -20,6 +20,7 @@ This config is based on [ejvi's dotfiles](https://github.com/ejvi/dotfiles), exc
 - zsh
 - rofi
 - exa
+- flameshot
 - [catppuccin cursors](https://github.com/catppuccin/cursors)
 - [catppuccin icon theme](https://github.com/catppuccin/papirus-folders)
 
@@ -33,7 +34,7 @@ This config is based on [ejvi's dotfiles](https://github.com/ejvi/dotfiles), exc
 
 # ToDo
 Important:
-- fix spotify player in bottom bar
+- ~~fix spotify player in bottom bar~~
 - add install file
 - make polybar prettier
 - add power menu to rofi
