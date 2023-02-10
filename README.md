@@ -16,11 +16,14 @@ This config is based on [ejvi's dotfiles](https://github.com/ejvi/dotfiles), exc
 - neofetch
 - micro
 - polybar
-- alacritty
+- kitty
 - zsh
 - rofi
 - exa
 - flameshot
+- playerctl
+- [mpris](https://aur.archlinux.org/packages/mpris-ctl)
+- [zscroll](https://aur.archlinux.org/packages/zscroll-git)
 - [catppuccin cursors](https://github.com/catppuccin/cursors)
 - [catppuccin icon theme](https://github.com/catppuccin/papirus-folders)
 
@@ -36,8 +39,7 @@ This config is based on [ejvi's dotfiles](https://github.com/ejvi/dotfiles), exc
 Important:
 - ~~fix spotify player in bottom bar~~
 - add install file
-- make polybar prettier
 - add power menu to rofi
 
 Extra:
-- make polybar more prettier (e.g. make the stuff on the right be in little round rectangles with different bgs)
+- make polybar more prettier
