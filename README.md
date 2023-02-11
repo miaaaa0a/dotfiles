@@ -3,7 +3,7 @@ This config is based on [ejvi's dotfiles](https://github.com/ejvi/dotfiles), exc
 
 - OS: arch linux
 - Shell: zsh
-- Terminal: alacritty
+- Terminal: kitty
 - Launcher: rofi
 - Bar: polybar
 - Font: jetbrains mono nerd font
@@ -34,6 +34,9 @@ This config is based on [ejvi's dotfiles](https://github.com/ejvi/dotfiles), exc
 <p align="center">
 	<img src="2.png"/>
 </p>
+<p align="center">
+	<img src="3.png"/>
+</p>
 
 # ToDo
 Important:
@@ -42,4 +45,4 @@ Important:
 - add power menu to rofi
 
 Extra:
-- make polybar more prettier
+- ~~make polybar more prettier~~
