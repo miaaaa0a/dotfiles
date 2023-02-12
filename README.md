@@ -26,6 +26,8 @@ This config is based on [ejvi's dotfiles](https://github.com/ejvi/dotfiles), exc
 - [zscroll](https://aur.archlinux.org/packages/zscroll-git)
 - [catppuccin cursors](https://github.com/catppuccin/cursors)
 - [catppuccin icon theme](https://github.com/catppuccin/papirus-folders)
+- [noto sans cjk](https://archlinux.org/packages/extra/any/noto-fonts-cjk/)
+- [jetbrainsmono nerd font](https://github.com/ryanoasis/nerd-fonts/raw/master/patched-fonts/JetBrainsMono/NoLigatures/Regular/complete/JetBrains%20Mono%20NL%20Nerd%20Font%20Complete%20Mono%20Regular.ttf)
 
 # Screenshots
 <p align="center">
