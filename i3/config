@@ -207,6 +207,7 @@ bindsym Mod1+r mode "resize"; exec --no-startup-id notify-send "Resize Mode"
 bar {
 position top
 workspace_buttons no
+tray_output none
 }
 
 #                       border  bg      text    indicator border2
