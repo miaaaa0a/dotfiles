@@ -101,8 +101,8 @@ bindsym Mod1+h split h; exec --no-startup-id notify-send "Horizontal Split"
 # split in vertical orientation
 bindsym Mod1+v split v; exec --no-startup-id notify-send "Vertical Split"
 
-# enter fullscreen mode for the focused container
-bindsym Mod1+f fullscreen toggle
+# enter fullscreen mode for the focused container and hide polybar on fullscreen because ARRRRGHHHHH I HATE I3 AND ITS INCAPABILITY TO COOPERATE WITH POLYBAR PROPERLY
+bindsym Mod1+f fullscreen toggle; exec --no-startup-id polybar-msg cmd toggle
 
 # change container layout (stacked, tabbed, toggle split)
 bindsym Mod1+s layout stacking
@@ -204,22 +204,11 @@ bindsym Mod1+r mode "resize"; exec --no-startup-id notify-send "Resize Mode"
 
 # Start i3bar to display a workspace bar (plus the system information i3status
 # finds out, if available)
-#bar {
-  #colors {
-    #background #161320
-    #statusline #F5E0DC
-    #separator  #988BA2
+bar {
+position top
+workspace_buttons no
+}
 
-    #focused_workspace  #C9CBFF #C9CBFF #161320
-    #active_workspace   #575268 #575268 #FFFFFF
-    #inactive_workspace #302D41 #302D41 #888888
-    #urgent_workspace   #E8A2AF #E8A2AF #161320
-    #binding_mode       #E8A2AF #E8A2AF #161320
-  #}
-
-        #status_command i3status
-        #font pango:JetBrainsMono Nerd Font 14
-#}
 #                       border  bg      text    indicator border2
 client.focused          #1e1e2e #1e1e2e #cdd6f4 #F28FAD   #988BA2
 client.focused_inactive #1e1e2e #1e1e2e #cdd6f4 #F28FAD   #6E6C7E
