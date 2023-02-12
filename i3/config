@@ -26,7 +26,7 @@ exec_always --no-startup-id $HOME/.config/polybar/launch.sh
 exec_always --no-startup-id feh --bg-scale $HOME/Pictures/mauve-cat.png
 exec_always --no-startup-id lxqt-policykit-agent
 exec_always --no-startup-id setxkbmap -layout us,ru
-exec_always --no-startup-id setxkbmap -option 'grp:alt_shift_toggle'
+exec_always --no-startup-id setxkbmap -option 'grp:win_space_toggle'
 
 # The combination of xss-lock, nm-applet and pactl is a popular choice, so
 # they are included here as an example. Modify as you see fit.
