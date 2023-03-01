@@ -1,0 +1,56 @@
+{
+    "layer": "top",
+    "modules-left": ["clock", "custom/spotify"],
+    "modules-center": ["wlr/workspaces"],
+    "modules-right": ["hyprland/language", "pulseaudio", "cpu", "memory", "custom/temp", "tray"],
+    "clock": {
+        "format": " {:%H:%M}",
+        "format-alt": " {:%d.%m.%Y %H:%M}"
+    },
+    "cpu": {
+        "interval": 2,
+        "format": "󰻠 {usage}%",
+        "max-length": 10
+    },
+    "memory": {
+    	"interval": 2,
+    	"format": "󰍛 {percentage}%",
+    	"max-length": 10
+    },
+    "tray": {
+        "icon-size": 18,
+        "spacing": 10
+    },
+    "wlr/workspaces": {
+         "format": "{icon}",
+         "on-scroll-up": "hyprctl dispatch workspace e+1",
+         "on-scroll-down": "hyprctl dispatch workspace e-1",
+         "on-click": "activate"
+    },
+    "pulseaudio": {
+        "format": "{icon} {volume}%",
+        "format-muted": "",
+        "format-icons": {
+            "default": ""
+        },
+        "scroll-step": 1,
+        "on-click": "pavucontrol"
+    },
+    "hyprland/language": {
+        "format": "{}",
+        "format-en": "us",
+        "format-ru": "ru",
+    },
+    "custom/temp": {
+    	"exec": "sensors | grep \"Tctl:\" | sed \"s/Tctl: *//\" | cut -d \" \" -f 1",
+    	"format": " {}",
+    	"restart-interval": 2
+    },
+    "custom/spotify": {
+        "format": "{}",
+        "max-length": 30,
+        "on-click": "playerctl -p spotify play-pause",
+        "exec": "$HOME/.config/waybar/spotify.sh",
+        "exec-if": "pgrep spotify"
+	}
+}

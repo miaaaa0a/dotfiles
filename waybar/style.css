@@ -1,0 +1,46 @@
+@import "mocha.css";
+
+* {
+	padding-top: 2pt;
+    border: none;
+    border-radius: 0;
+    font-family: JetBrainsMono Nerd Font;
+    font-size: 17px;
+    min-height: 10px;
+}
+
+window#waybar {
+    background: rgba(255, 255, 255, 0);
+    color: @text;
+}
+
+#workspaces button {
+	margin-left: 5px;
+	padding: 0 10px;
+	border-radius: 15px;
+    background: @mantle;
+    color: @text;
+}
+
+#workspaces button.active {
+    background: @base;
+    padding: 0 15px;
+}
+
+#clock, #language, #cpu, #memory, #tray, #pulseaudio, #custom-temp, #custom-spotify {
+	border-radius: 15px;
+	margin-left: 5px;
+	margin-right: 5px;
+    padding: 0 10px;
+    background-color: @base;
+}
+
+#tray menu {
+	background: @mantle;
+	color: @text;
+}
+
+#custom-spotify {
+	background-color: @green;
+	color: @mantle;
+}
