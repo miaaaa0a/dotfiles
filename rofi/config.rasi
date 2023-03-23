@@ -1,20 +1,19 @@
 configuration {
-    modi: "run,drun,window,power-menu:rofi-power-menu";
+    modi: "run,drun,power-menu:rofi-power-menu --choices shutdown/reboot/suspend/logout";
     lines: 10;
     font: "JetBrainsMono Nerd Font 14";
     show-icons: true;
-    icon-theme: "Oranchelo";
+    icon-theme: "Papirus-Dark";
     terminal: "kitty";
     drun-display-format: "{icon} {name}";
-    location: 0;
+    location: 8;
     disable-history: false;
     hide-scrollbar: true;
-    display-drun: "   Apps ";
-    display-run: "   Run ";
-    display-window: " 﩯  Window";
-    display-Network: " 󰤨  Network";
-    sidebar-mode: false;
-    show: "run,drun,window,power-menu";
+    display-drun: "Apps";
+    display-run: "Run";
+    display-power-menu: "Power";
+    sidebar-mode: true;
+    show: "run,drun,power-menu";
 }
 
 @theme "catppuccin"
@@ -25,8 +24,8 @@ element-text, element-icon , mode-switcher {
 }
 
 window {
-    height: 360px;
-    width: 360;
+    height: 90%;
+    width: 20%;
     border: 3px;
     border-color: @border-col;
     background-color: @bg-col;
@@ -46,7 +45,7 @@ inputbar {
 prompt {
     background-color: @mauve;
     padding: 6px;
-    text-color: @bg-col;
+    text-color: @bg-col2;
     border-radius: 3px;
     margin: 20px 0px 0px 20px;
 }
@@ -87,12 +86,12 @@ element selected {
 }
 
 mode-switcher {
-    spacing: 0;
-  }
+    spacing: -1;
+}
 
 button {
     padding: 10px;
-    background-color: @bg-col-light;
+    background-color: @bg-col;
     text-color: @grey;
     vertical-align: 0.5; 
     horizontal-align: 0.5;
