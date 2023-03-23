@@ -48,7 +48,7 @@
     },
     "custom/spotify": {
         "format": "{}",
-        "max-length": 30,
+        "max-length": 32,
         "on-click": "playerctl -p spotify play-pause",
         "exec": "$HOME/.config/waybar/spotify.sh",
         "exec-if": "pgrep spotify"
